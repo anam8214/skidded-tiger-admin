@@ -1683,6 +1683,17 @@ do
 			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game:GetService("Players").LocalPlayer)
 		end
 	end,"Rejoins the server")
+	Add_Command("rj",function(Args)
+		local Args = GetArgs(Args)
+		Notif("Rejoining...")
+		wait(.3)
+		if #game:GetService("Players"):GetPlayers() ==1 then
+			game:GetService("Players").LocalPlayer:Kick("Please wait.")
+			game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
+		else
+			game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game:GetService("Players").LocalPlayer)
+		end
+	end,"Rejoins the server")
 	Add_Command("opendoors",function(Args)
 		local Args = GetArgs(Args)
 		local LastTeam =plr.TeamColor.Name
