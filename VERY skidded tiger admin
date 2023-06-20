@@ -447,10 +447,10 @@ do --//Main Gui
 	CommandBar.Font = Enum.Font.SourceSans
 	CommandBar.PlaceholderColor3 = Color3.fromRGB(178, 178, 178)
 	CommandBar.PlaceholderText = "Command bar"
-	CommandBar.Text = ""
+	CommandBar.Text = "᲼᲼  ᲼᲼#4447"
 	CommandBar.TextColor3 = Color3.fromRGB(255, 255, 255)
 	CommandBar.TextSize = 24.000
-	CommandBar.TextTransparency = 0.140
+	CommandBar.TextTransparency = 0
 	CommandBar.TextWrapped = true
 
 	UIStroke.Parent = Out
@@ -3859,5 +3859,3 @@ CmdBarFrame:TweenPosition(UDim2.new(0.5, 0, 0.899999998, 0)-UDim2.new(0,0,.05,0)
 Notif("the skidded script is loaded you imbecile, now go enjoy it",3)
 wait(5)
 Notif("type ;noinvite to disable discord invite even tho u havent been in their discord",3)
-wait(10)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
